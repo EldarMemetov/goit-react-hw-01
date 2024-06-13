@@ -1,0 +1,32 @@
+.item {
+display: flex;
+    border: 1px solid #686262;
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 10px;
+    flex-basis: 25%;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+}
+
+.status {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.onlineText {
+    color: green ;
+}
+
+.offlineText {
+    color: red;
+}
+
+.name {
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
